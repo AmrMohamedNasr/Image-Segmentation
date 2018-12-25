@@ -20,7 +20,7 @@ def get_measures(gt_img, kimg):
         for j in range(len(cont_mat)):
             percent_j = cont_mat[j][i] / np.sum(cont_mat[:,i]);
             if (percent_j != 0.0):
-                entropy -= percent_j * math.log(percent_j);
+                entropy -= percent_j * math.log10(percent_j);
         entropy *= n_i / n;
         cond_entropy += entropy;
     f_measure /= len(cont_mat[0]);
