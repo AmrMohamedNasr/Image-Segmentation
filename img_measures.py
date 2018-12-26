@@ -3,7 +3,6 @@ import numpy as np
 from sklearn.metrics.cluster import contingency_matrix
 def get_measures(gt_img, kimg):
     cont_mat = contingency_matrix(gt_img, kimg);
-    print(cont_mat);
     f_measure = 0;
     cond_entropy = 0;
     for i in range(len(cont_mat[0])):
