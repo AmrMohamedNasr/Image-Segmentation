@@ -17,7 +17,7 @@ We intend to perform image segmentation. Image segmentation means that we can gr
 	* The data is available at the following [link](http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/BSR/BSR_bsds500.tgz). Note, data cannot be downloaded from original site, check it on web archive.
 	* The dataset has 500 images. The test set is 200 images only. We will report our results on the test set only.
 
-2. Visualize the image and the ground truth segmentation (5 points)
+2. Visualize the image and the ground truth segmentation
 	* Write your own function that reads an image and display an image with its associated ground truth segmentation(s).
 
 3. Segmentation using K-means
